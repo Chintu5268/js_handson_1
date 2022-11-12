@@ -1,0 +1,42 @@
+h1{
+  width: 300px;
+  height: auto;
+  background-color: rgb(20, 241, 241);
+  margin: 0 auto;
+  border-radius: 10px;
+  color: rgb(101, 114, 27);
+  animation-name: js;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes js{
+  from{width: 350px;
+  height: 100px;
+  background-color: chartreuse;
+  rotate: 0deg;
+  text-align: center;
+  font-size: 50px;
+
+}
+to{width: 500px;
+height: 200px;
+color: rgb(114, 27, 27);
+background-color: darkslategrey;
+rotate: 360deg;
+text-align: center;
+
+
+
+}
+}
+h3{
+  color: red;
+  
+}
+
+pre{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
