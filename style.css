@@ -1,10 +1,14 @@
-h1{
-  width: 300px;
+ body{
+  background: linear-gradient(to bottom,rgb(148, 227, 230),rgb(131, 124, 24));
+ }
+ h1{
+  width: 350px;
   height: auto;
-  background-color: rgb(20, 241, 241);
+  background-color: rgb(108, 241, 20);
   margin: 0 auto;
   border-radius: 10px;
   color: rgb(101, 114, 27);
+  font-family: sans-serif;
   animation-name: js;
   animation-duration: 3s;
   animation-direction: alternate-reverse;
@@ -32,6 +36,7 @@ text-align: center;
 }
 h3{
   color: red;
+  font-size: 25px;
   
 }
 
