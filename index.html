@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Js_handson1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Javascript Handson 1</h1>
+
+  <h3>You are provided with two numbers
+    A
+    and
+    B
+    . Your task is to add these two numbers.</h3>
+  <pre>
+  const AddTwoNumbers = (a,b) => {
+    return a+b;
+};
+ </pre>
+
+  <h3>You are given two number first as
+    A
+    and second as
+    B
+    and check if both conditions (
+    A
+    < 10 and A>
+      B
+      ) are satisfied or not with the help of operators</h3>
+      <pre>
+        
+const Is_Valid = (a,b) => {
+  return a<10 && a>b;
+};
+
+      </pre>
+
+<h3>Check the conditons
+  You are given two numbers 
+  A
+   and 
+  B
+  . You need to do the following checks:
+  
+  if both are divisible by 10 console true.
+  if both are not divisible by 10 console false.
+  if one of them only is divisible by 10 console true.
+  Use operator to do this.</h3>
+  <pre>
+    const Check = (A, B) => 
+{ if(A%10===0 && B%10===0){
+    return "true";
+  }
+  else if(A%10===0 || B%10===0){
+    return "true";
+  }
+  else{
+    return "false";
+  }
+};
+  </pre>
+
+  <h3>Find the first digit of a 4 digit number
+    You are provided a four digit number N only. Your task is to print out the first digit of that number.</h3>
+<pre>
+  
+const First_Digit = (n) => {
+  var a=n/1000;
+  var b=parseInt(a);
+  return b;
+};
+
+
+
+</pre>
+<h3>
+  Find the last digit of a 4 digit number
+  You are provided a four digit number N only. Your task is to print out the last digit of that number
+</h3>
+<pre>
+  const Last_Digit = (n) => {
+    var a=n%10;
+    return a;
+ };
+ 
+ 
+</pre>
+
+<h3>Find the remainder
+  You are provided with two numbers 
+  A
+   and 
+  B
+   where 
+  A
+   as  divisor and 
+  B
+   as  dividend.Your task is find the remainder</h3>
+
+<pre>
+  const Find_the_remainder = (a,b) => {
+      return b%a;
+  };
+  
+  </pre>
+<h3>Multipy two Numbers
+  You are provided with two numbers 
+  A
+   and 
+  B
+  . Your task is to multiply these two numbers</h3>
+  <pre>
+    
+const Multiply_two_number = (a,b) => {
+  return a*b;
+};
+
+
+  </pre>
+
+<h3>Marks Calculator
+  Shyam has got his marks in three subjects as 
+  A
+  , 
+  B
+  , and 
+  C
+   (out of 100).Write a program to calculate his total marks and his average</h3>
+   <pre>
+    
+
+
+const Sum = (A, B, C) => 
+{
+ return A+B+C;
+};
+
+const Average = (A, B, C) => 
+{ return (A+B+C)/3;
+ 
+};
+
+   </pre>
+  <script src="index.js"></script>
+</body>
+
+</html>
